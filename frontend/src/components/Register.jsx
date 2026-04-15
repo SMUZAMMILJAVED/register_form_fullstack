@@ -51,7 +51,7 @@ const StudentRegistrationForm = () => {
       setLoading(true);
 
       const res = await axios.post(
-        "http://localhost:4000/api/students",
+        "https://register-form-fullstack.vercel.app/api/students",
         formData
       );
 
